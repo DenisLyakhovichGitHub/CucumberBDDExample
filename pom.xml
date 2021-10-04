@@ -126,6 +126,13 @@
       <version>${ashot}</version>
       <scope>test</scope>
     </dependency>
+    <!-- Опциональный запуск Cucumber + junit-platform.properties + RunCucumberJUnit5Test.java -->
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-junit-platform-engine</artifactId>
+      <version>${cucumber}</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
   <!-- Сборка -->
   <build>
